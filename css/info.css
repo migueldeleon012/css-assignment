@@ -1,0 +1,21 @@
+.info {
+  padding: 20px;
+  text-align: center;
+}
+
+.info__cards {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.info__cards .card {
+  margin: 20px 0;
+}
+
+.info__cards .card__img {
+  width: 100%;
+  aspect-ratio: 1;
+  border: 2px solid var(--light-accent-color);
+  margin-bottom: 5px;
+  border-radius: 20px;
+}

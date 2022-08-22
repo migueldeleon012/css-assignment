@@ -1,0 +1,13 @@
+.quote {
+  padding: 30px 20px;
+  background: var(--gray);
+}
+
+.quote em {
+  display: block;
+}
+
+.quote strong {
+  display: block;
+  text-align: right;
+}

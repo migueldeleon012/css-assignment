@@ -1,0 +1,24 @@
+.header {
+  padding: 100px 20px 50px 20px;
+  background-color: var(--dark-accent-color);
+  color: var(--white);
+  text-align: center;
+}
+
+.header .body-text {
+  margin: 10px 0 20px 0;
+}
+
+.header__img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-top: 50px;
+  background-color: red;
+  /* 
+    to make the placeholder centered 
+    but delete when image is placed
+  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
