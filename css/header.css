@@ -10,6 +10,10 @@
   color: var(--gray);
 }
 
+.header .btn .body-text {
+  margin: 0;
+}
+
 .header__img {
   width: 100%;
   aspect-ratio: 16/9;
