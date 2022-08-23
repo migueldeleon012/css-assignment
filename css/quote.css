@@ -11,3 +11,14 @@
   display: block;
   text-align: right;
 }
+
+@media screen and (min-width: 1024px) {
+  .quote {
+    padding: 100px 0;
+  }
+
+  .quote__container {
+    width: 800px;
+    margin: 0 auto;
+  }
+} ;

@@ -7,6 +7,7 @@
 
 .header .body-text {
   margin: 10px 0 20px 0;
+  color: var(--gray);
 }
 
 .header__img {
@@ -21,4 +22,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .header {
+    padding: 150px 0 100px 0;
+  }
+
+  .header .body-text {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .header__container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .header__img {
+    margin: 0;
+    aspect-ratio: 20/9;
+  }
 }

@@ -12,3 +12,22 @@
 .call-to-action__container .texts {
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 1024px) {
+  .call-to-action {
+    margin: 50px 0;
+  }
+
+  .call-to-action__container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+
+  .call-to-action__container .btn {
+    height: auto;
+  }
+} ;
