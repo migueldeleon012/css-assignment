@@ -6,24 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css">
-  <title>Document</title>
+  <title>Css Website</title>
 </head>
 
 <body>
   <!-- add active class to navbar to see mobile active -->
   <nav class="navbar">
-    <div class="navbar__logo"> Header Logo </div>
-    <ul class="navbar__items">
-      <li class="items">
-        <a href="facebook.com">asdf</a>
-      </li>
-      <li class="items">
-        <a href="">asdf</a>
-      </li>
-      <li class="items">
-        <a href="">asdf</a>
-      </li>
-    </ul>
+    <div class="navbar__container">
+      <div class="navbar__logo heading-3"> Header Logo </div>
+      <ul class="navbar__items">
+        <li class="items">
+          <a href="facebook.com">header link one</a>
+        </li>
+        <li class="items">
+          <a href="">header link two</a>
+        </li>
+        <li class="items">
+          <a href="">header link three</a>
+        </li>
+      </ul>
+    </div>
     <div class="navbar__burger">
       <div class="line"></div>
       <div class="line"></div>
@@ -32,13 +34,15 @@
   </nav>
   <!-- start header -->
   <header class="header">
-    <main class="header__main">
-      <h1 class="heading-1"> This Website is awesome </h1>
-      <p class="body-text"> This website has some subtext that goes here under the main title. It's a smaller font and
-        the color is lower contrast</p>
-      <button class="btn btn-primary">Sign up</button>
-    </main>
-    <div class="header__img"> Image placeholer </div>
+    <div class="header__container">
+      <main class="header__main">
+        <h1 class="heading-1"> This Website is awesome </h1>
+        <p class="body-text"> This website has some subtext that goes here under the main title. It's a smaller font and
+          the color is lower contrast</p>
+        <button class="btn btn-primary">Sign up</button>
+      </main>
+      <div class="header__img"> Image placeholer </div>
+    </div>
   </header>
   <!-- start info section -->
   <section class="info" id="info">
@@ -68,9 +72,11 @@
   </section>
   <!-- start quote section -->
   <section class="quote">
-    <em class="heading-2"> This is an inpiring quote, or a testimonial from a customer. Maybe it's just filling up
-      space, or maybe people will actually read it. Who know? All i Know is that it looks nice </em>
-    <strong class="body-text">-Thor</strong>
+    <div class="quote__container">
+      <em class="heading-2"> This is an inpiring quote, or a testimonial from a customer. Maybe it's just filling up
+        space, or maybe people will actually read it. Who know? All i Know is that it looks nice </em>
+      <strong class="body-text">-Thor</strong>
+    </div>
   </section>
   <!-- start call to action section -->
   <section class="call-to-action">
