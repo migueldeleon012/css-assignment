@@ -32,7 +32,7 @@
   .info__cards {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
   }
 
   .info__cards .card {
