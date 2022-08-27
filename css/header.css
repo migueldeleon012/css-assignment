@@ -28,6 +28,13 @@
   align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+  .header .header__img {
+    margin-inline: auto;
+    width: 80%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .header {
     padding: 150px 0 100px 0;
